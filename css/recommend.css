@@ -1,0 +1,35 @@
+body {
+	background-color: #A9D0F5;
+}
+.navigate {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.recommendContext {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.txt {
+	font-size: 28px;
+	color: #424242;
+}
+
+.randomContext {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.galary {
+	width: 100%;
+	height: 100%;
+}
+
+.picBlock {
+	float: left;
+}
+
+.actionButtons {
+	margin-left: 80px;
+}

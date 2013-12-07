@@ -1,0 +1,204 @@
+<head>
+	<title>Homepage</title>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/recommend.css"/>
+	
+</head>
+<body>
+	<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>	
+	
+	<div class="modal fade" id="modal1_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Pin it!</h4>
+      </div>
+      <div class="modal-body">
+        <div>
+        	<span>Board:</span>
+        	<span class="dropdown">
+  			<a data-toggle="dropdown" href="#">My Boards</a>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    			<li>Pets</li>
+    			<li>Scenery</li>
+			</ul>
+			</span>
+        </div>
+        <div>
+        	<span>Description:</span>
+        	<input type = "text" name = "description"></input>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<div class="modal fade" id="modal1_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Rate it!</h4>
+      </div>
+      <div class="modal-body">
+        <div>
+        	<span>Give your rating:</span>
+        	<input type = "text" name = "description"></input>
+        	<span>/100</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<div class = "navigate btn btn-default"><a href="profile.html">See Profile</a></div>
+	<div class = "navigate btn btn-default"><a href="board.html">My Board</a></div>
+	<div class = "navigate btn btn-default"><a href="pins.html">My Pins</a></div>
+
+	
+
+	<div class = "recommendContext">
+		<div class = "txt text-center">Recommended Context</div>
+		<div class = "galary">
+			<div class = "picBlock">
+				<img class = "img-thumbnail" id = "recPic1" src = "imgs/test.jpeg">
+				<div class = "actionButtons">
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_1">Pin
+					</button>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_2">Rate
+					</button>
+				</div>
+				
+			</div>
+			<div class = "picBlock">
+			<img class = "img-thumbnail" id = "recPic2" src = "imgs/test.jpeg">
+			<div class = "actionButtons">
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_1">Pin
+					</button>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_2">Rate
+					</button>
+				</div>
+			</div>
+			<div class = "picBlock">
+			<img class = "img-thumbnail" id = "recPic3" src = "imgs/test.jpeg">
+			<div class = "actionButtons">
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_1">Pin
+					</button>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_2">Rate
+					</button>
+				</div>
+				</div>
+			<div class = "picBlock">
+			<img class = "img-thumbnail" id = "recPic4" src = "imgs/test.jpeg">
+			<div class = "actionButtons">
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_1">Pin
+					</button>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_2">Rate
+					</button>
+				</div>
+				</div>
+			<div class = "picBlock">
+			<img class = "img-thumbnail" id = "recPic5" src = "imgs/test.jpeg">
+			<div class = "actionButtons">
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_1">Pin
+					</button>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_2">Rate
+					</button>
+				</div>
+				</div>
+			<div class = "picBlock">
+			<img class = "img-thumbnail" id = "recPic6" src = "imgs/test.jpeg">
+			<div class = "actionButtons">
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_1">Pin
+					</button>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_2">Rate
+					</button>
+				</div>
+				</div>
+			<div class = "picBlock">
+			<img class = "img-thumbnail" id = "recPic7" src = "imgs/test.jpeg">
+			<div class = "actionButtons">
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_1">Pin
+					</button>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_2">Rate
+					</button>
+				</div>
+				</div>
+			<div class = "picBlock">
+			<img class = "img-thumbnail" id = "recPic8" src = "imgs/test.jpeg">
+			<div class = "actionButtons">
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_1">Pin
+					</button>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_2">Rate
+					</button>
+				</div>
+				</div>
+			<div class = "picBlock">
+			<img class = "img-thumbnail" id = "recPic9" src = "imgs/test.jpeg">
+			<div class = "actionButtons">
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_1">Pin
+					</button>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_2">Rate
+					</button>
+				</div>
+				</div>
+			<div class = "picBlock">
+			<img class = "img-thumbnail" id = "recPic10" src = "imgs/test.jpeg">
+			<div class = "actionButtons">
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_1">Pin
+					</button>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_2">Rate
+					</button>
+				</div>
+				</div>
+			<div class = "picBlock">
+			<img class = "img-thumbnail" id = "recPic11" src = "imgs/test.jpeg">
+			<div class = "actionButtons">
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_1">Pin
+					</button>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_2">Rate
+					</button>
+				</div>
+				</div>
+			<div class = "picBlock">
+			<img class = "img-thumbnail" id = "recPic12" src = "imgs/test.jpeg">
+			<div class = "actionButtons">
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_1">Pin
+					</button>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1_2">Rate
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class = "randomContext">
+		<div class = "txt text-center">Random Selected Context</div>
+		<div class = "galary">
+			<img class = "img-thumbnail" id = "ranPic1" src = "imgs/test.jpeg">
+			<img class = "img-thumbnail" id = "ranPic2" src = "imgs/test.jpeg">
+			<img class = "img-thumbnail" id = "ranPic3" src = "imgs/test.jpeg">
+			<img class = "img-thumbnail" id = "ranPic4" src = "imgs/test.jpeg">
+			<img class = "img-thumbnail" id = "ranPic5" src = "imgs/test.jpeg">
+			<img class = "img-thumbnail" id = "ranPic6" src = "imgs/test.jpeg">
+			<img class = "img-thumbnail" id = "ranPic7" src = "imgs/test.jpeg">
+			<img class = "img-thumbnail" id = "ranPic8" src = "imgs/test.jpeg">
+			<img class = "img-thumbnail" id = "ranPic9" src = "imgs/test.jpeg">
+			<img class = "img-thumbnail" id = "ranPic10" src = "imgs/test.jpeg">
+			<img class = "img-thumbnail" id = "ranPic11" src = "imgs/test.jpeg">
+			<img class = "img-thumbnail" id = "ranPic12" src = "imgs/test.jpeg">
+		</div>
+	</div>
+
+	
+</body>
