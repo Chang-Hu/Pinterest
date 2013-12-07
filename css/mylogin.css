@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body {
+	background: url('background.png') no-repeat; 
+	background-size:100% 100%;
+	-moz-background-size:100% 100%;
+5
+   color: #000;
+	font: 14px Arial;
+	margin: 0 auto;
+	background-origin:content-box;
+}
+
+
+.container { 
+	margin: 70px auto; 
+	position: relative; 
+	width: 900px; 
+}
+
+#content {
+background: #f9f9f9;
+border: 1px solid #c4c6ca;
+margin: 0 auto;
+padding: 25px 0 0;
+position: relative;
+text-align: center;
+text-shadow: 0 1px 0 #fff;
+width: 441px;
+height: 319px;
+}
+
+#content h1 {
+	color: #333300;
+	font: bold 35px Helvetica, Arial, sans-serif;
+	letter-spacing: -0.05em;
+	line-height: 20px;
+	margin: 10px 0 30px;
+}
+
+#content form { margin: 0 20px; position: relative }
+#content form input[type="text"],
+#content form input[type="password"] {
+	background: #eae7e7;
+	border: 1px solid #c8c8c8;
+	color: #777;
+	font: 13px Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	padding: 15px 10px 15px 40px;
+	width: 80%;
+}
+
+#username { background-position: 10px 10px !important }
+#password { background-position: 10px -53px !important }
+
+#content form input[type="submit"]  {
+background: #FFCCFF;
+border: 3px solid #D69E31;
+color: #85592e;
+cursor: pointer;
+float: left;
+font: bold 20px Helvetica, Arial, sans-serif;
+height: 35px;
+margin: 20px 0 35px 266px;
+position: relative;
+width: 120px;
+background-color: aliceblue;
+}
